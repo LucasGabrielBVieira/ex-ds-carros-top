@@ -1,0 +1,17 @@
+.ds-ct-card-comments-container {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ds-ct-color-bg-primary);
+    border: 1px solid var(--ds-ct-color-border);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.ds-ct-card-comments-container p {
+    font-size: 16px;
+    color: var(--ds-ct-color-font-tertiary);
+}

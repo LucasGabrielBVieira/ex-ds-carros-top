@@ -1,0 +1,27 @@
+#ds-ct-home-section {
+    background-color: var(--ds-ct-color-bg-primary);
+}
+
+.ds-ct-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.ds-ct-cards-container h2 {
+  margin: 25px 0;
+  font-size: 20px;
+  color: var(--ds-ct-color-font-secondary);
+}
+
+.ds-ct-cards-comments {
+  background-color: var(--ds-ct-color-bg-tertiary);
+}
+
+@media (min-width: 576px) {
+  .ds-ct-cards-container h2 {
+    font-size: 32px;
+  }
+}
